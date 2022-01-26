@@ -1,14 +1,22 @@
 import './App.css';
 import Button from './components/Button';
+import Footer from './layout/Footer';
+import Header from './layout/Header';
+import Page from './layout/Page';
 
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold">
-        Hello world!
-      </h1>
+    <Page>
+      <Header>
+        <h1 className="text-3xl font-bold">
+          A tailwind form
+        </h1>
+      </Header>
       <Button variation="primary">Submit</Button>
-    </div>
+      <Footer>
+        <p>(c) 2022 All rights reserved</p>
+      </Footer>
+    </Page>
   );
 }
 
