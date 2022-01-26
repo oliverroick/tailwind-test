@@ -3,3 +3,6 @@
 @import "tailwindcss/utilities";
 
 @import "components/Button/button.css";
+@import "layout/Header/header.css";
+@import "layout/Page/page.css";
+@import "layout/Footer/footer.css";

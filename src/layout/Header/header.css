@@ -1,0 +1,7 @@
+.header {
+  @apply bg-slate-100 px-0 py-4 font-bold;
+}
+
+.header h1 {
+  @apply text-base tracking-wide uppercase;
+}

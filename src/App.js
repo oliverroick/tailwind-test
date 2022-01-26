@@ -8,9 +8,7 @@ function App() {
   return (
     <Page>
       <Header>
-        <h1 className="text-3xl font-bold">
-          A tailwind form
-        </h1>
+        <h1>A tailwind form</h1>
       </Header>
       <Button variation="primary">Submit</Button>
       <Footer>
