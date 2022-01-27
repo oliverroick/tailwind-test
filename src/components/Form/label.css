@@ -1,0 +1,8 @@
+.label, .legend {
+  @apply font-bold mb-1 block;
+}
+
+fieldset.radio .label,
+fieldset.checkbox .label {
+  @apply mr-4 font-normal mb-0 inline;
+}

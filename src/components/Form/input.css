@@ -1,0 +1,7 @@
+.input {
+  @apply border-2 px-2 py-1 border-slate-700 focus:outline-none focus:ring-yellow-500 focus:ring-2;
+}
+
+.radio {
+  @apply focus:outline-none focus:ring-yellow-500 focus:ring-2 border-slate-700;
+}

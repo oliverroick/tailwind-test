@@ -1,0 +1,15 @@
+export function Label({ forId, children }) {
+  return (
+    <label for={forId} className="label">
+      {children}
+    </label>
+  );
+}
+
+export function Legend({ children }) {
+  return (
+    <legend className="legend">
+      {children}
+    </legend>
+  );
+}
