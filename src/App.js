@@ -48,9 +48,9 @@ function App() {
               <InputRadio
                 name="role"
                 options={[
-                  {name: 'admin', label: 'Admin'},
-                  {name: 'editor', label: 'Editor'},
-                  {name: 'user', label: 'User'}
+                  {value: 'admin', label: 'Admin'},
+                  {value: 'editor', label: 'Editor'},
+                  {value: 'user', label: 'User'}
                 ]}
               />
             </fieldset>
