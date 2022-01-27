@@ -27,6 +27,20 @@ function App() {
             <InputText name="name" />
           </FormGroup>
 
+          <fieldset className="input-group grid grid-cols-3 gap-4">
+            <Legend>Enter your address</Legend>
+
+            <FormGroup>
+              <Label for="postcode">Post code</Label>
+              <InputText name="postcode" />
+            </FormGroup>
+
+            <FormGroup twClasses="col-span-2">
+              <Label for="City">City</Label>
+              <InputText name="City" />
+            </FormGroup>
+          </fieldset>
+
           <h2>About your role</h2>
           <FormGroup>
             <fieldset className="radio">

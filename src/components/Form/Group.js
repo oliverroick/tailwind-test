@@ -1,6 +1,7 @@
-export default function FormGroup ({ children }) {
+export default function FormGroup ({ twClasses = '', children }) {
+  const classNames = ['form-group', 'flex', 'flex-col', ...twClasses.split(' ')]
   return (
-    <div className="form-group">
+    <div className={classNames.join(' ')}>
       {children}
     </div>
   );

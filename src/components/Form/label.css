@@ -3,6 +3,12 @@
 }
 
 fieldset.radio .label,
+fieldset.checkbox .label,
+fieldset.input-group .label {
+  @apply font-normal mb-0;
+}
+
+fieldset.radio .label,
 fieldset.checkbox .label {
-  @apply mr-4 font-normal mb-0 inline;
+  @apply mr-4 inline;
 }
