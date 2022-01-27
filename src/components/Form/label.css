@@ -2,13 +2,11 @@
   @apply font-bold mb-1 block;
 }
 
-fieldset.radio .label,
-fieldset.checkbox .label,
 fieldset.input-group .label {
-  @apply font-normal mb-0;
+  @apply font-normal;
 }
 
 fieldset.radio .label,
 fieldset.checkbox .label {
-  @apply mr-4 inline;
+  @apply mr-4 inline mb-0 font-normal;
 }
