@@ -1,6 +1,6 @@
 export function Label({ forId, children }) {
   return (
-    <label for={forId} className="label">
+    <label htmlFor={forId} className="label">
       {children}
     </label>
   );

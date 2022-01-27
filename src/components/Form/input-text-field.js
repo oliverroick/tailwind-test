@@ -1,3 +1,3 @@
 export default function InputTextField({ name }) {
-return <textarea name={name} className="input" />
+return <textarea id={name} name={name} className="input" />
 }

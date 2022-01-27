@@ -23,7 +23,7 @@ function App() {
         <form>
           <h2>Background information</h2>
           <FormGroup>
-            <Label for="name">Name</Label>
+            <Label forId="name">Name</Label>
             <InputText name="name" />
           </FormGroup>
 
@@ -31,12 +31,12 @@ function App() {
             <Legend>Enter your address</Legend>
 
             <FormGroup>
-              <Label for="postcode">Post code</Label>
+              <Label forId="postcode">Post code</Label>
               <InputText name="postcode" />
             </FormGroup>
 
             <FormGroup twClasses="col-span-2">
-              <Label for="City">City</Label>
+              <Label forId="City">City</Label>
               <InputText name="City" />
             </FormGroup>
           </fieldset>
@@ -57,7 +57,7 @@ function App() {
           </FormGroup>
 
           <FormGroup>
-            <Label for="description">Describe your role</Label>
+            <Label forId="description">Describe your role</Label>
             <InputTextField name="description" />
           </FormGroup>
 
