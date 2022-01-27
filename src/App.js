@@ -9,6 +9,7 @@ import {
   Label,
   Legend,
   InputText,
+  InputTextField,
   InputRadio
 } from './components/Form';
 
@@ -25,6 +26,8 @@ function App() {
             <Label for="name">Name</Label>
             <InputText name="name" />
           </FormGroup>
+
+          <h2>About your role</h2>
           <FormGroup>
             <fieldset className="radio">
               <Legend>Role</Legend>
@@ -38,6 +41,12 @@ function App() {
               />
             </fieldset>
           </FormGroup>
+
+          <FormGroup>
+            <Label for="description">Describe your role</Label>
+            <InputTextField name="description" />
+          </FormGroup>
+
           <Button variation="primary">Submit</Button>
         </form>
       </Content>
