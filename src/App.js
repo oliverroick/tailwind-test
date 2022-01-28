@@ -21,7 +21,9 @@ function App() {
       </Header>
       <Content>
         <form className="md:grid md:grid-cols-3 md:gap-4">
-          <h2>Background information</h2>
+          <div className="md:col-span-1">
+            <h2>Background information</h2>
+          </div>
           <div className="md:col-span-2">
             <FormGroup>
               <Label forId="name">Name</Label>
@@ -43,7 +45,9 @@ function App() {
             </fieldset>
           </div>
 
-          <h2>About your role</h2>
+          <div className="md:col-span-1 mt-6 md:mt-0">
+            <h2>About your role</h2>
+          </div>
           <div className="md:col-span-2">
             <FormGroup>
               <fieldset className="radio">

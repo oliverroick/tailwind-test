@@ -8,3 +8,7 @@
 @import "layout/Page/page.css";
 @import "layout/Footer/footer.css";
 @import "layout/Content/content.css";
+
+h2 {
+  @apply border-current border-b-2 md:border-b-0 pb-1 mb-4 uppercase;
+}
