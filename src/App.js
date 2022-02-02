@@ -70,7 +70,8 @@ function App() {
           </div>
 
           <div className="md:col-span-2 md:col-start-2">
-            <Button variation="primary">Submit</Button>
+            <Button twClasses="mr-1" variation="primary">Submit</Button>
+            <Button variation="flat">Cancel</Button>
           </div>
         </form>
       </Content>

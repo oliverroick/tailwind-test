@@ -1,7 +1,34 @@
 .btn {
-  @apply px-4 py-2 rounded bg-gray-200 text-black;
+  @apply
+    px-4
+    py-2
+    rounded
+    bg-gray-200
+    text-inherit;
 }
 
 .btn.primary {
-  @apply bg-blue-600 text-white hover:bg-blue-700;
+  @apply
+    bg-slate-700
+    text-white
+    hover:bg-slate-900;
+}
+
+.btn.flat {
+  @apply
+    bg-inherit
+    hover:text-slate-600;
+}
+
+.btn:focus {
+  @apply
+    bg-yellow-500
+    outline-none
+    text-inherit;
+}
+
+.btn:hover:focus {
+  @apply
+    bg-yellow-400
+    text-inherit;
 }
