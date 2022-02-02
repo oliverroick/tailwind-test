@@ -1,7 +1,15 @@
 .header {
-  @apply bg-slate-100 px-0 py-4 font-bold;
+  @apply bg-slate-100 px-0 py-4;
+}
+
+.header .inner {
+  @apply flex flex-row;
 }
 
 .header h1 {
-  @apply text-base tracking-wide uppercase;
+  @apply text-base tracking-wide uppercase font-bold mr-10;
+}
+
+.header nav li {
+  @apply inline mr-2;
 }

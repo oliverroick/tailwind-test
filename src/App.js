@@ -16,9 +16,7 @@ import {
 function App() {
   return (
     <Page>
-      <Header>
-        <h1>A tailwind form</h1>
-      </Header>
+      <Header />
       <Content>
         <form className="md:grid md:grid-cols-3 md:gap-4">
           <div className="md:col-span-1">
